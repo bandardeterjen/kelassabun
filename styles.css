@@ -169,8 +169,15 @@ header p {
     height: 450px;
     margin: 20px auto;
     display: block;
+    text-align: center;
+}
+video h1 {
+    font-size: 2.5em;
 }
 
+video p {
+    font-size: 1.2em;
+    margin-top: 10px;
 /* CTA Section */
 #cta {
     background: #333;
