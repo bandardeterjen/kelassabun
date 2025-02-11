@@ -1,0 +1,198 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+#product-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Pricing Table */
+#pricing {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.plan {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 30%;
+    min-width: 250px;
+}
+
+.plan h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plan ul li {
+    margin: 10px 0;
+}
+
+.cta {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cta:hover {
+    background: #555;
+}
+
+/* FAQ Section */
+#faq {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.faq-item {
+    margin: 20px 0;
+}
+
+.faq-question {
+    background: #f4f4f4;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.faq-answer {
+    margin-top: 10px;
+    padding: 10px;
+    background: #eaeaea;
+    display: none;
+}
+
+.faq-answer.active {
+    display: block;
+}
+
+/* Testimonial Slider */
+#testimonials {
+    background: #333;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.slide {
+    display: none;
+    padding: 20px;
+}
+
+.slide.active {
+    display: block;
+}
+
+.prev, .next {
+    background: #fff;
+    color: #333;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* YouTube Video */
+#video iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* CTA Section */
+#cta {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#cta h2 {
+    font-size: 2em;
+}
+
+#cta p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
