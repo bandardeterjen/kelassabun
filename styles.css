@@ -35,7 +35,6 @@ header p {
 #product-image img {
     max-width: 100%;
     height: auto;
-    display: block;
     margin: 20px auto;
 }
 
@@ -136,7 +135,7 @@ header p {
 }
 
 .slide {
-    display: none;
+    display: block;
     padding: 20px;
 }
 
